@@ -1,0 +1,32 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pytesseract
+Pillow
+pdf2image
+reportlab
+
+requests
+python-dotenv   # for storing LLM keys (optional)
+reportlab
+fastapi
+uvicorn[standard]
+python-multipart
+
+# OCR (open-source)
+easyocr
+pillow
+torch           # required for easyocr
+
+# PDF processing (open-source, no Poppler)
+pymupdf         # (fitz)
+
+# Embeddings + Vector Search (open-source)
+sentence-transformers
+faiss-cpu
+
+# PDF generation
+reportlab
+
+# Ollama client (local LLM)
+ollama
